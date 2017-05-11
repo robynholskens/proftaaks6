@@ -11,12 +11,14 @@ and open the template in the editor.
         
         <link href="assets/css/global.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/landing.css" rel="stylesheet" type="text/css" />
+        
     </head>
     <body>
+        <video id="bgVid" src="assets/vid/bg-video.mp4" type="video/mp4" autoplay loop></video>
         <section id="landing">
             <div id="content">
                 <div id="app">
-                    
+                    <img src="assets/img/app-screenshot.png" alt="App Screenshot" />
                 </div>
                 <div id="text-wrapper">
                     <div id="text">
@@ -31,11 +33,15 @@ and open the template in the editor.
                         </p>
                     </div>
                     <div id="action-buttons">
-                        <a>Play Store</a>
+                        <a><img src="assets/img/google-play.png" alt="Get it on Google Play Store" /></a>
                         <a>App Store</a>
                     </div>
                 </div>
             </div>
         </section>
+        
+        <!-- Scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/js/bg-video.js" type="text/javascript"></script>
     </body>
 </html>
