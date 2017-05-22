@@ -4,14 +4,10 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 12-mei-2017, 14:22:21
+    Created on : 18-mei-2017, 11:38:20
     Author     : Joost
 */
 
-#info {
+#faq {
     background: #f6f6f6;
-}
-
-#info .content .left-content img {
-    height: 500px;
 }
